@@ -26,15 +26,15 @@
 ```bash
 git clone https://github.com/hyunjaesung/stevy-skills.git
 cd stevy-skills
-./scripts/install.sh both all
+bash scripts/install.sh both all
 ```
 
 첫 번째 인수는 설치 대상입니다.
 
 ```bash
-./scripts/install.sh codex all
-./scripts/install.sh claude all
-./scripts/install.sh both grill-decisions learn-by-redrafting
+bash scripts/install.sh codex all
+bash scripts/install.sh claude all
+bash scripts/install.sh both grill-decisions learn-by-redrafting
 ```
 
 Codex는 `${CODEX_HOME:-~/.codex}/skills/`, Claude Code는 `~/.claude/skills/`에 설치됩니다. Codex는 설치 후 새 작업을 열어 목록을 갱신하세요. Claude Code는 이미 스킬 폴더를 감시 중이면 변경을 자동 감지하며, 최상위 폴더가 처음 생긴 경우 다시 시작하세요.
