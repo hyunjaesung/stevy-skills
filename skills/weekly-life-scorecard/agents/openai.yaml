@@ -1,0 +1,4 @@
+interface:
+  display_name: "Weekly Life Scorecard"
+  short_description: "분기 목표와 삶의 균형을 행동 중심 주간 점수로 조정"
+  default_prompt: "Use $weekly-life-scorecard to turn my raw weekly notes into a balanced score and next-week plan."
